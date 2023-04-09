@@ -19,7 +19,7 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://era-task-scheduler.netlify.app","http://127.0.0.1:5500","http://127.0.0.1:5501"],
+    allow_origins=["https://era-task-scheduler.netlify.app/","https://era-task-scheduler.netlify.app","http://127.0.0.1:5500","http://127.0.0.1:5501"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
